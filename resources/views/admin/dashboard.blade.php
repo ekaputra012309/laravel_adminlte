@@ -32,6 +32,7 @@
                             </div>
                             <div class="card-body">
                                 {{ __("You're logged in!") }}
+                                <p>Your API Token: {{ $apiToken }}</p>
                             </div>
                         </div>
                     </div>
